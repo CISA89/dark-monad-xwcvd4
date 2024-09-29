@@ -1,0 +1,17 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.form-input {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: grey;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* füge einen Schatten hinzu */
+  border: 6px solid #333; /* dunkler Rand */
+  border-color: darkgray;
+  transition: background-color 0.5s ease; /* sanfter Farbwechsel */
+}
