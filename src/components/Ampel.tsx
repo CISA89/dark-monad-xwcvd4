@@ -6,16 +6,16 @@ interface AmpelProps {
 }
 
 const Ampel: React.FC<AmpelProps> = ({ status }) => {
-  let color = "gray"; // Standardfarbe
+  let lightclass = "gray-light"; // Standardfarbe
 
   if (status === "ja") {
-    color = "green";
+    lightclass = "green-light";
   } else if (status === "teilweise") {
-    color = "yellow";
+    lightclass = "yellow-light";
   } else if (status === "nein") {
-    color = "red";
+    lightclass = "red-light";
   } else if (status === "Bitte auswählen") {
-    color = "gray";
+    lightclass = "gray-light";
   }
 
   return (

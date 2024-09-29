@@ -9,7 +9,6 @@
 .ampel-light {
   width: 100px;
   height: 100px;
-  background-color: gray;
   border-radius: 50%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* füge einen Schatten hinzu */
   border: 6px solid #333; /* dunkler Rand */
@@ -22,6 +21,22 @@
   animation: pulse 1s ease-in-out infinite alternate;
 }
 
+.green-light {
+  background-color: #18df46;
+}
+
+.yellow-light {
+  background-color: yellow;
+}
+
+.red-light {
+  background-color: red;
+}
+
+.gray-light {
+  background-color: gray
+}
+
 @keyframes pulse {
   from {
     transform: scale(1);
@@ -30,3 +45,5 @@
     transform: scale(1.1);
   }
 }
+
+
